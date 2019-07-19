@@ -1,0 +1,134 @@
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet	http://www.w3.org/2000/01/rdf-schema#label	Booklet
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc	http://www.w3.org/2000/01/rdf-schema#label	Misc
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Book	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection	http://www.w3.org/2000/01/rdf-schema#label	Collection
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference	http://www.w3.org/2000/01/rdf-schema#label	Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList	http://www.w3.org/2000/01/rdf-schema#comment	A list of persons.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings	http://www.w3.org/2000/01/rdf-schema#label	Proceedings
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution	http://www.w3.org/2000/01/rdf-schema#comment	An institution.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection	http://www.w3.org/2000/01/rdf-schema#comment	A book that is collection of texts or articles.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter	http://www.w3.org/2000/01/rdf-schema#comment	A chapter (or section or whatever) of a book having its own title.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph	http://www.w3.org/2000/01/rdf-schema#label	Monograph
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Book	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook	http://www.w3.org/2000/01/rdf-schema#label	InBook
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph	http://www.w3.org/2000/01/rdf-schema#comment	A book that is a single entity, as opposed to a collection.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic	http://www.w3.org/2000/01/rdf-schema#comment	A Master's or PhD thesis.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Article	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange	http://www.w3.org/2000/01/rdf-schema#comment	A range of pages.
+http://xmlns.com/foaf/0.1/Person	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable	http://www.w3.org/2000/01/rdf-schema#label	Deliverable report
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Report	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference	http://www.w3.org/2000/01/rdf-schema#comment	Base class for all entries
+http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Report
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Part
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished	http://www.w3.org/2000/01/rdf-schema#label	Unpublished
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings	http://www.w3.org/2000/01/rdf-schema#label	InProceedings
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal	http://www.w3.org/2000/01/rdf-schema#label	Informal
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings	http://www.w3.org/2000/01/rdf-schema#comment	A proceedings may be implicitly defined with an inproceedings.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Part	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Address	http://www.w3.org/2000/01/rdf-schema#label	Address
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Article	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Part
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Report	http://www.w3.org/2000/01/rdf-schema#comment	A report published by an institution with some explicit policy.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList	http://www.w3.org/2000/01/rdf-schema#label	Person list
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic	http://www.w3.org/2000/01/rdf-schema#label	Academic
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Part	http://www.w3.org/2000/01/rdf-schema#label	Part
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher	http://www.w3.org/2000/01/rdf-schema#comment	The publisher of books or journals.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Book
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings	http://www.w3.org/2000/01/rdf-schema#comment	An article in a conference proceedings.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes	http://www.w3.org/2000/01/rdf-schema#label	LectureNotes
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange	http://www.w3.org/2000/01/rdf-schema#label	PageRange
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Part	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings	http://www.w3.org/2000/01/rdf-schema#comment	The proceedings of a conference.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Book
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis	http://www.w3.org/2000/01/rdf-schema#comment	A Master's thesis.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Report
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis	http://www.w3.org/2000/01/rdf-schema#label	PhdThesis
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture	http://www.w3.org/2000/01/rdf-schema#label	MotionPicture
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection	http://www.w3.org/2000/01/rdf-schema#comment	A part of a book having its own title.
+http://oaei.ontologymatching.org/tests/101/onto.rdf	http://www.w3.org/2000/01/rdf-schema#comment	Possible ontology to describe bibTeX entries.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual	http://www.w3.org/2000/01/rdf-schema#comment	Technical documentation.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Date	http://www.w3.org/2000/01/rdf-schema#label	Date
+http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes	http://www.w3.org/2000/01/rdf-schema#comment	Lecture notes.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis	http://www.w3.org/2000/01/rdf-schema#comment	A PhD thesis.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport	http://www.w3.org/2000/01/rdf-schema#comment	A report published by a school or other institution, usually numbered within a series.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Part	http://www.w3.org/2000/01/rdf-schema#comment	A part of something (either Book or Proceedings).
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution	http://www.w3.org/2000/01/rdf-schema#label	Institution
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Book
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable	http://www.w3.org/2000/01/rdf-schema#comment	A report delivered for accomplishing a contract.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Report	http://www.w3.org/2000/01/rdf-schema#label	Report
+http://oaei.ontologymatching.org/tests/101/onto.rdf#School	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference	http://www.w3.org/2000/01/rdf-schema#comment	An event presenting work.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Part
+http://xmlns.com/foaf/0.1/Organization	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet	http://www.w3.org/2000/01/rdf-schema#comment	A work that is printed and bound, but without a named publisher or sponsoring institution.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://xmlns.com/foaf/0.1/Organization
+http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal
+http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport	http://www.w3.org/2000/01/rdf-schema#label	TechReport
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Book	http://www.w3.org/2000/01/rdf-schema#label	Book
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection	http://www.w3.org/2000/01/rdf-schema#label	Incollection
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution
+http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Ontology
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#School	http://www.w3.org/2000/01/rdf-schema#label	School
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual	http://www.w3.org/2000/01/rdf-schema#label	Manual
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf	http://www.w3.org/2000/01/rdf-schema#label	Bibliographic references
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Article	http://www.w3.org/2000/01/rdf-schema#label	Article
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter	http://www.w3.org/2000/01/rdf-schema#label	BookPart
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished	http://www.w3.org/2000/01/rdf-schema#comment	A document having an author and title, but not formally published.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf	http://www.w3.org/2002/07/owl#versionInfo	$Id: onto.rdf,v 1.30 2008/05/27 14:41:13 euzenat Exp $
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Date	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Address	http://www.w3.org/2000/01/rdf-schema#comment	The street address of the location of some organization or event.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Book	http://www.w3.org/2000/01/rdf-schema#comment	A book that may be a monograph or a collection of written texts.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#School	http://www.w3.org/2000/01/rdf-schema#comment	A school or university.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal	http://www.w3.org/2000/01/rdf-schema#comment	A document that was informally published or not published.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher	http://www.w3.org/2000/01/rdf-schema#label	Publisher
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal	http://www.w3.org/2000/01/rdf-schema#label	Journal or magazine
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal	http://www.w3.org/2000/01/rdf-schema#comment	A periodical publication collecting works from different authors.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Report	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Address	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc	http://www.w3.org/2000/01/rdf-schema#comment	Use this type when nothing else fits.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis	http://www.w3.org/2000/01/rdf-schema#label	MastersThesis
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Article	http://www.w3.org/2000/01/rdf-schema#comment	An article from a journal or magazine.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference	http://www.w3.org/2000/01/rdf-schema#label	The location of an event
+http://oaei.ontologymatching.org/tests/101/onto.rdf#School	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook	http://www.w3.org/2000/01/rdf-schema#comment	A subpart of a book given by a range of pages.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	http://www.w3.org/2002/07/owl#Class
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Part
+http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture	http://www.w3.org/2000/01/rdf-schema#comment	A film/movie/motion picture.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Date	http://www.w3.org/2000/01/rdf-schema#comment	Date of a day which can be unknown (i.e., only the year is known or only the year and month). This is for overcoming the limits of XML-Schema for wich a date is not separable.
+http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic
+http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#Part

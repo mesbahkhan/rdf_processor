@@ -1,0 +1,2 @@
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal	http://www.w3.org/2000/01/rdf-schema#subClassOf	http://oaei.ontologymatching.org/tests/101/onto.rdf#JournalOrPeriodical
+http://oaei.ontologymatching.org/tests/101/onto.rdf#Congress	owl:sameAs	http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference
