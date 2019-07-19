@@ -1,17 +1,17 @@
 digraph  {
 	
-	n5[label="A periodical publication collecting works from different authors."];
-	n7[label="An event presenting work."];
-	n4[label="Journal or magazine"];
-	n2[label="The location of an event"];
+	n4[label="A periodical publication collecting works from different authors."];
+	n2[label="An event presenting work."];
+	n7[label="Journal or magazine"];
+	n5[label="The location of an event"];
 	n1[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference"];
 	n3[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal"];
 	n6[label="http://www.w3.org/2002/07/owl#Class"];
-	n1->n2[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n1->n2[label="http://www.w3.org/2000/01/rdf-schema#comment"];
+	n1->n5[label="http://www.w3.org/2000/01/rdf-schema#label"];
 	n1->n6[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
-	n1->n7[label="http://www.w3.org/2000/01/rdf-schema#comment"];
-	n3->n4[label="http://www.w3.org/2000/01/rdf-schema#label"];
-	n3->n5[label="http://www.w3.org/2000/01/rdf-schema#comment"];
+	n3->n4[label="http://www.w3.org/2000/01/rdf-schema#comment"];
 	n3->n6[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
+	n3->n7[label="http://www.w3.org/2000/01/rdf-schema#label"];
 	
 }
