@@ -28,7 +28,7 @@ func Orchestrate_analysis() {
 			merged_difference_graph,
 			mapping_graph)
 
-	//Merge mapping and
+	//Merge mapping and input data
 	graph_processors.
 		Merge_all(
 			triple_input_graphs,
