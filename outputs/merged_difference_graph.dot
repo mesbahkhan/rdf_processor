@@ -1,25 +1,25 @@
 digraph  {
 	
-	n8[label="A periodical publication collecting works from different authors."];
-	n2[label="An event presenting work."];
-	n9[label="Journal or magazine"];
-	n6[label="The location of an event"];
-	n1[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference"];
-	n5[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Congress"];
-	n3[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal"];
-	n7[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#JournalOrPeriodical"];
-	n4[label="http://www.w3.org/2002/07/owl#Class"];
-	n1->n2[label="http://www.w3.org/2000/01/rdf-schema#comment"];
-	n1->n6[label="http://www.w3.org/2000/01/rdf-schema#label"];
-	n1->n4[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
-	n5->n6[label="http://www.w3.org/2000/01/rdf-schema#label"];
-	n5->n4[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
-	n5->n2[label="http://www.w3.org/2000/01/rdf-schema#comment"];
-	n3->n4[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
-	n3->n8[label="http://www.w3.org/2000/01/rdf-schema#comment"];
-	n3->n9[label="http://www.w3.org/2000/01/rdf-schema#label"];
-	n7->n8[label="http://www.w3.org/2000/01/rdf-schema#comment"];
-	n7->n4[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
-	n7->n9[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n4[label="A periodical publication collecting works from different authors."];
+	n9[label="An event presenting work."];
+	n2[label="Journal or magazine"];
+	n7[label="The location of an event"];
+	n8[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference"];
+	n6[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Congress"];
+	n5[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal"];
+	n1[label="http://oaei.ontologymatching.org/tests/101/onto.rdf#JournalOrPeriodical"];
+	n3[label="http://www.w3.org/2002/07/owl#Class"];
+	n8->n9[label="http://www.w3.org/2000/01/rdf-schema#comment"];
+	n8->n3[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
+	n8->n7[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n6->n7[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n6->n9[label="http://www.w3.org/2000/01/rdf-schema#comment"];
+	n6->n3[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
+	n5->n4[label="http://www.w3.org/2000/01/rdf-schema#comment"];
+	n5->n2[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n5->n3[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
+	n1->n2[label="http://www.w3.org/2000/01/rdf-schema#label"];
+	n1->n3[label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"];
+	n1->n4[label="http://www.w3.org/2000/01/rdf-schema#comment"];
 	
 }

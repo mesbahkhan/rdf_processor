@@ -3,7 +3,7 @@ package triples_processors
 import (
 	"github.com/wallix/triplestore"
 	"rdf_processor/code/graph_processors"
-	"storage/csv"
+	"rdf_processor/code/triples_processors/internal"
 )
 
 func Get_triples_graphs() []triplestore.RDFGraph {
@@ -21,7 +21,7 @@ func Get_triples_graphs() []triplestore.RDFGraph {
 func Prepare_mapping_graph() triplestore.RDFGraph {
 
 	mapping_dataset :=
-		storage.
+		internal.
 			Read_csv_data("./input/mapping.tsv", "tab")
 
 	mapping_store :=
