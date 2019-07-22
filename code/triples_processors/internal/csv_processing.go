@@ -10,7 +10,9 @@ import (
 	"strings"
 )
 
-func Open_csv_file(csv_filename string) (*os.File, []byte) {
+func Open_csv_file(
+	csv_filename string) (
+	*os.File, []byte) {
 
 	csv_file, err :=
 		os.OpenFile(
@@ -51,7 +53,9 @@ func Open_csv_file(csv_filename string) (*os.File, []byte) {
 
 }
 
-func Read_csv_data(csv_file_name string, delimiter string) [][]string {
+func Read_csv_data(
+	csv_file_name string,
+	delimiter string) [][]string {
 
 	csv_file,
 		csv_file_data :=
@@ -69,22 +73,11 @@ func Read_csv_data(csv_file_name string, delimiter string) [][]string {
 
 func Read_csv_to_slice(csv_file *os.File, csv_data_utfutls []byte, delimiter string) [][]string {
 
-	//--END OF UTFUTIL reader
-	/***********easycsv reader
-	easy_csv_reader := easycsv.NewReaderFile(file_name ,  easycsv.Option{
-		Comma: '\t',
-	})
-	var rawCSVdata [][]string
-	easy_csv_reader.ReadAll(&rawCSVdata)
-	* END OF EASY CSV REader*/
-
-	// csv reader standard
-
 	csv_reader := csv.NewReader(strings.NewReader(string(csv_data_utfutls)))
-	//csv_reader.TrimLeadingSpace = true
-	csv_reader.FieldsPerRecord = -1 // see the Reader struct information below
+	csv_reader.FieldsPerRecord = -1
 
 	switch delimiter {
+
 	case "tab":
 		csv_reader.Comma = '\t'
 	case "":
@@ -97,11 +90,13 @@ func Read_csv_to_slice(csv_file *os.File, csv_data_utfutls []byte, delimiter str
 	if csv_reader_error != nil {
 		panic(csv_reader_error)
 	}
-	//--- END OF CSV READER
+
 	fmt.Println(len(csv_data))
 
-	//raw csv data generation  (NOT USED) -
-	//#TODO - move this out.
+	return csv_data
+}
+
+func extract_raw_data(csv_data [][]string) {
 	rawCSVdata_bytes := make([][]byte, len(csv_data)*len(csv_data[0]))
 	for _, raw_csv_data_row := range csv_data {
 		for _, raw_csv_data_column := range raw_csv_data_row {
@@ -110,8 +105,4 @@ func Read_csv_to_slice(csv_file *os.File, csv_data_utfutls []byte, delimiter str
 
 		}
 	}
-
-	//  -- end of raw data bytes generation
-
-	return csv_data
 }
